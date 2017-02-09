@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+body {
+    font: 12px 微软雅黑, "Microsoft Yahei", Arial, Helvetica, sans-serif, 宋体;
+    background: #fafafc;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+fieldset, img, button {
+    border: none;
+    vertical-align: top;
+}
+
+input {
+    display: none;
+}
+
+img, iframe, table, form {
+    border: none;
+    vertical-align: top;
+}
+
+em, i {
+    font-style: normal;
+}
+
+b, strong {
+    font-weight: normal;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.w1240{
+    width: 1240px;
+    margin: 0 auto;
+}
+.topBar {
+    background: #fafafc;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+}
+
+.topBar ul {
+    float: left;
+}
+
+.topBar ul li,.topBar ol li {
+    float: left;
+    margin-right: 40px;
+}
+
+.topBar  li a{
+    color: #666;
+}
+
+.topBar li a:hover {
+    color: #00c3f5;
+    text-decoration: none;
+}
+
+.topBar ol {
+    float: right;
+}
+.topBar ol a i {
+    display: inline-block;
+    width: 32px;
+    height: 13px;
+    background: url("../images/new.png") no-repeat;
+    vertical-align: middle;
+}
+.logo-head{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 1px solid #efefef;
+    background: #fff;
+}
+.logo-head .logo {
+    float: left;
+    display: block;
+    height: 20px;
+    width: 115px;
+    margin: 30px 143px 0 0;
+}
+.logo img{
+    height: 20px;
+    width: 115px;
+}
+.logo-head ul {
+    float: left;
+    }
+.logo-head ul li {
+    float: left;
+    margin-right: 36px;
+}
+.logo-head ul li a{
+    color: #333;
+    font-size: 16px;
+    }
+.logo-head ul li a:hover{
+    color: #00c3f5;
+    text-decoration: none;
+    transition: color .2s;
+}
+.car{
+    position: relative;
+}
+.car .bc{
+    display: block;
+    height: 480px;
+    background: url("../images/car.png")no-repeat  -279px 0;
+}
+.car ol{
+    height: 480px;
+    width: 244px;
+    background: #f4d1d2;
+    position: absolute;
+    top:0;
+    left:51px;
+}
+.car ol li {
+    width: 244px;
+    height: 57px;
+    line-height: 57px;
+}
+.car ol .total{
+    margin-top: 12px;
+}
+.car ol li:hover a
+{background: #fff;
+    text-decoration: none;
+}
+.car ol li a{
+   display: block;
+    width: 214px;
+    height: 57px;
+    color: #3a3a3a;
+    padding-left: 30px;
+}
+.car ul{
+    position: absolute;
+    left: 745px;
+    bottom:25px;
+}
+.car ul li{
+    margin-right: 10px;
+    float: left;
+}
+.car ul li a{
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: transparent;
+    border:1px solid #c4b3b4;
+    border-radius: 50%;
+}
+.car ul li a:hover{
+    background: #00c3f5;
+    border-color:#00c3f5 ;
+}
+.car .pointL,.car .pointR{
+    width: 30px;
+    height: 59px;
+    background: url("../images/next.png")no-repeat 0 0;
+    position: absolute;
+    top: 215px;
+    left: 300px;
+    display: none;
+}
+.car .pointR{
+left: 1260px;
+}
+.car:hover .pointL,.car:hover .pointR{
+    display: block;
+}
+ .passIcon{
+    float: left;
+    width: 244px;
+    height: 140px;
+     background: #f9f9f9;
+    text-align: center;
+}
+.pass{
+    margin-top: 5px;
+}
+.passIcon a{
+    float: left;
+    display: block;
+    height: 40px;
+    width: 122px;
+    color: #333;
+    text-decoration: none;
+    margin: 20px 0;
+    text-align: center;
+    }
+.passIcon a img{
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin: 0 auto;
+}
+.pass ul{
+    float: left;
+}
+.pass ul li {
+    float: left;
+    margin-left: 5px;
+}
+.hot,.iPhone {
+    background: #fff;
+    margin-top: 40px;
+
+}
+.hot h2 ,.iPhone h2{
+    float: left;
+    width: 1000px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+}
+.hot>span ,.iPhone>span {
+    float: right;
+    display: inline-block;
+    width: 66px;
+    height: 30px;
+    position: relative;
+}
+.hot span i,.hot span b{
+    display: inline-block;
+    width: 30px;height: 30px;
+    background: url("../images/hot-a.png")no-repeat 0 0;
+}
+.hot span b{
+    background-position:-31px 0 ;
+}
+.hot ul{
+    margin-top: 25px ;
+    float: left;
+}
+.hot ul li,.iPhone ul li {
+    float: left;
+    width: 247px;
+    height: 338px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+     margin-left: -1px;
+
+    }
+.hot ul li:hover {
+    border-color: #ccc;
+    position: relative;
+    z-index: 1;
+
+}
+.hot ul li a,.iPhone ul li a{
+    text-decoration: none;
+}
+.aInner{
+    width: 247px;
+    height: 338px;
+    text-align: center;
+    position: relative;
+}
+.aInner img {
+    margin:30px auto 40px;
+}
+.aInner i{
+    height:40px;
+    width: 40px;
+    background: url("../images/new-1.png")no-repeat 0 0;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+.aInner b{
+    display: block;
+    color: #555757;
+    font-size: 14px;
+}
+.aInner p{
+    color: #f14361;
+    margin: 3px 0 8px 0;
+}
+.aInner p em{
+    display: inline-block;
+    width: 34px;
+    height: 16px;
+    color: #fff;
+    background-color: #f14361;
+    margin-right: 6px;
+}
+.aInner span{
+   float: none;
+    display: block;
+    width: auto;
+    color: #e02b41;
+}
+.iPhone{
+    background-color: #fafafc;
+}
+.iPhone ul li{
+    border: none;
+    width: 243px;
+    margin: 6px 6px 0 0;
+}
+.iPhone ul li:hover{
+    position: relative;
+    top: -4px;
+    z-index: 1;
+       transition:top .9s;
+    box-shadow: 0 0 3px rgba(255,255,255,.3);}
+.iPhone ul .iPhoneFirst:hover{
+    top:0;
+}
+.aInnerF img{
+   width: 243px;
+}
+.iPhone ul .noMa{
+    margin:6px 0 0 0;
+}
+.iPhoneFirst .aInnerF{
+    position: relative;
+}
+.iPhoneFirst .aInnerF .hide{
+    width: 243px;
+    height: 0;
+    background-color:rgba(255,255,255,.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: none;
+    transition:  all .6s;
+}
+.iPhoneFirst .aInnerF:hover .hide{
+    display: block;
+    height: 100px;
+}
+.iPhoneFirst .aInnerF .hide p{
+    width: 188px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 3px;
+    background-color: #ff5a59;
+    color: #fff;
+}
+.foot{
+    background-color: #fafafc;
+
+}
+.foot ol{
+    float: left;
+    height: 135px;
+}
+.foot ol li {
+    float: left;
+    width: 204px;
+    text-align: center;
+    position: relative;
+}
+.foot ol li:after{
+    content: '';
+    height: 44px;
+    width: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    right: 1px;
+    top: 35px;
+}
+.foot ol li.noAfter:after{
+    content: '';
+    height: 0;
+    width: 0;
+}
+.foot ol li i{
+    text-align: center;
+    display: block;
+    height: 36px;
+    width: 36px;
+    background: url("../images/buttom.png")no-repeat;
+    margin: 38px auto 18px;
+    }
+.foot ol li b{
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;margin-right: 4px;
+}
+.foot ol li em{
+    color: #666;
+}
+.state{
+    height: 178px;
+    background: #fafafc;
+    border-top:  1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.state dl{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+.state dl dt{
+    font-size:14px;
+    margin-top: 34px;
+    color: #333;
+    margin-bottom: 12px;
+}
+.state   dd{
+    line-height: 22px;
+}
+.state   dd a{
+    color:#666 ;
+    text-decoration: none;
+}
+.state   dd a:hover{
+    color: #00c3f5;
+}
+.state .last{
+    width: 240px;
+    line-height: 38px;
+}
+.state  .number a{
+    color: #1fa7ea;
+    font-size: 24px;
+}
+.state .tell{
+
+    line-height: 34px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+.state .tell a{
+    display: inline-block;
+    width: 160px;
+    height: 34px;
+    background:rgba(31,167,234,1);
+    color: #fff;
+}
+.state .tell a:hover{
+    color: #fff;
+    background:rgba(31,167,234,.7);
+}
+.infor{
+    color: #fafafc;
+    height: 114px;
+    line-height: 114px;
+    border-bottom: 1px solid #46535e;
+}
+.infor ul{
+   width: 900px;
+    margin: 0 auto ;
+
+}
+.infor ul li {
+    float: left;
+    color:#666a6f;
+    height: 12px;
+    margin-right: 13px;
+}
+.infor ul li a{
+    color:#666a6f;
+    height: 12px;
+}
+.infor ul li a img{
+    vertical-align: middle;
+}
+body>a{
+    width: 33px;
+    height: 44px;
+    position: fixed;
+    right: 0;
+    bottom: 107px;
+    background: url("../images/fix.png")no-repeat 0 0;
+    display: none;
+}
+body>a.arrow{
+    bottom: 54px;
+    background-position: -45px 0;
+}
